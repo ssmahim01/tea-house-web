@@ -27,6 +27,14 @@
           },
         }
       </script>
+      <script>
+         function message(){
+            var name = prompt("Write your name");
+            alert("Welcome " + name);
+            var age = prompt("And last type your age then explore");
+            alert("Your Age Is " + age + " ,Explore Now");
+         }
+      </script>
 </head>
 </head>
 <body class="font-manrope">
@@ -42,7 +50,7 @@
                 <br>
                 <p class="text-gray-500 md:w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
                 <br>
-                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold" onclick="message()">Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
              </div>
              <!-- header image content -->
               <div class="relative">
@@ -145,7 +153,7 @@
                    <!-- Reviews Card -->
                     <div class="relative py-24">
                       <!-- Middle Card -->
-                      <div class="absolute top-44 md:top-52 z-10">
+                      <div class="py-5 absolute top-44 md:top-52 z-10">
                         <div class="h-52 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5">
                            <div class="absolute -top-5 -left-5 bg-white rounded-full">
                               <img class="p-1" src="images/client.png" alt="">
@@ -163,7 +171,7 @@
                         <div class="absolute -top-5 -left-5 bg-white rounded-full">
                            <img class="p-1" src="images/client.png" alt="">
                         </div>
-                        <div class="mt-5">
+                        <div class="mt-16">
                            <p class="text-gray-500 mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                            <h1 class="font-bold">Ilham Yuda</h1>
                            <small class="text-gray-500 font-bold">Businessman</small>
@@ -237,7 +245,7 @@
             <img class="mb-8" src="images/cup.png" alt="">
             <div class="flex items-center gap-3">
                <h4>Ready to get started?</h4>
-               <button class="bg-gradient-to-r from-orange-500 to-red-500 px-4 py-3 rounded-lg text-white font-bold">Get Started</button>
+               <button class="bg-gradient-to-r from-orange-500 to-red-500 px-4 py-3 rounded-lg text-white font-bold" onclick="message()">Get Started</button>
             </div>
           </div>
           <!-- Links -->
